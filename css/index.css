@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(40deg, rgba(0, 0, 0, 0.962), rgb(34, 1, 37),rgb(0, 0, 29), pink, rgba(240, 63, 93, 0.436));
+    font-family: "Dancing Script", sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+    overflow: hidden;
+}
+
+html {
+    height: 100%;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: "Caveat", cursive;
+    font-size: 1.7rem;
+}
+
+p {
+    margin: 30px 0;
+    font-size: 1.5rem;
+}
+
+a {
+    font-family: "Caveat", cursive;
+    color: pink;
+}
